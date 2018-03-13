@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": "last 2 chrome versions, last 2 firefox versions"
+    }]
+  ],
+  "plugins": [
+    "babel-plugin-styled-components",
+    ["@babel/plugin-transform-react-jsx", {
+      "pragma": "h",
+      "pragmaFrag": "Fragment",
+    }]
+  ]
+}

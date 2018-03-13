@@ -1,0 +1,13 @@
+@import "~normalize.css/normalize.css";
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: normal;
+  src: url(../static/NotoSans-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: bold;
+  src: url(../static/NotoSans-Bold.woff) format("woff");
+}
